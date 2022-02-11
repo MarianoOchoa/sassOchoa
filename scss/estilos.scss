@@ -1,0 +1,55 @@
+//creando las propiedades//
+$colorhefo:#1A1A1F;
+$colorFondo: #030A36;
+$textos: normal 'roboto' ;
+$color-text: #FBFBFC;
+
+
+
+header{
+    nav{
+        height: 7vh;
+        background-color: $colorhefo;
+        div{ a{
+            font-style: $textos;
+            color: $color-text;
+
+        }
+            ul li{
+                color: $color-text;
+                list-style: none;
+                &:hover{
+                    background-color: #73FF7B;
+                }
+            }
+
+            
+        }
+
+       
+    }
+}
+
+main{
+    position: absolute;
+    top: 7vh;
+    background-color: $colorFondo;
+    div .bienv{
+        display: flex;
+        justify-content: center;
+        color: $color-text;
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        color: $color-text
+
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        color:$color-text
+
+    }
+
+}

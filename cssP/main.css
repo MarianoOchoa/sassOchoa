@@ -1,0 +1,28 @@
+header nav {
+  height: 7vh;
+  background-color: #1A1A1F; }
+  header nav div a {
+    font-style: normal "roboto";
+    color: #FBFBFC; }
+  header nav div ul li {
+    color: #FBFBFC;
+    list-style: none; }
+    header nav div ul li:hover {
+      background-color: #73FF7B; }
+
+main {
+  position: absolute;
+  top: 7vh;
+  background-color: #030A36; }
+  main div .bienv {
+    display: flex;
+    justify-content: center;
+    color: #FBFBFC; }
+  main h3 {
+    display: flex;
+    justify-content: center;
+    color: #FBFBFC; }
+  main p {
+    display: flex;
+    justify-content: center;
+    color: #FBFBFC; }
